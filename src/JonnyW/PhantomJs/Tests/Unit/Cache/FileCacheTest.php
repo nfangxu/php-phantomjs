@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Cache;
 
 use JonnyW\PhantomJs\Cache\FileCache;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class FileCacheTest extends \PHPUnit_Framework_TestCase
+class FileCacheTest extends TestCase
 {
     /**
      * Test filename
@@ -247,7 +248,7 @@ class FileCacheTest extends \PHPUnit_Framework_TestCase
      * @access public
      * @return void
      */
-    public function setUp()
+    public function setUp():void
     {
         $this->filename  = 'test.txt';
         $this->directory = sys_get_temp_dir();
@@ -263,7 +264,7 @@ class FileCacheTest extends \PHPUnit_Framework_TestCase
      * @access public
      * @return void
      */
-    public function tearDown()
+    public function tearDown():void
     {
         $filename = $this->getFilename();
 

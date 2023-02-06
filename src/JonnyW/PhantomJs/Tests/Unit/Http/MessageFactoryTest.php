@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Http;
 
 use JonnyW\PhantomJs\Http\MessageFactory;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class MessageFactoryTest extends \PHPUnit_Framework_TestCase
+class MessageFactoryTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

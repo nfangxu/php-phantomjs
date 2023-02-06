@@ -8,6 +8,7 @@
  */
 namespace JonnyW\PhantomJs\Tests\Integration\Procedure;
 
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Config\FileLocator;
 use JonnyW\PhantomJs\Client;
 use JonnyW\PhantomJs\Procedure\Procedure;
@@ -21,7 +22,7 @@ use JonnyW\PhantomJs\Validator\EngineInterface;
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ProcedureValidatorTest extends \PHPUnit_Framework_TestCase
+class ProcedureValidatorTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

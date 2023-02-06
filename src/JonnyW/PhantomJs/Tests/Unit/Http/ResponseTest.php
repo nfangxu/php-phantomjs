@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Http;
 
 use JonnyW\PhantomJs\Http\Response;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ResponseTest extends \PHPUnit_Framework_TestCase
+class ResponseTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

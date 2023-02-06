@@ -8,7 +8,8 @@
  */
 namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
-use Twig_Environment;
+use PHPUnit\Framework\TestCase;
+use Twig\Environment;
 use Twig_Loader_String;
 use JonnyW\PhantomJs\Engine;
 use JonnyW\PhantomJs\Cache\FileCache;
@@ -26,7 +27,7 @@ use JonnyW\PhantomJs\Procedure\Procedure;
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ProcedureTest extends \PHPUnit_Framework_TestCase
+class ProcedureTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

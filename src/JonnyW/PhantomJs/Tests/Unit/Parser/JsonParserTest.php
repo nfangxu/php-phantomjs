@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Parser;
 
 use JonnyW\PhantomJs\Parser\JsonParser;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class JsonParserTest extends \PHPUnit_Framework_TestCase
+class JsonParserTest extends TestCase
 {
 
 /*****************/

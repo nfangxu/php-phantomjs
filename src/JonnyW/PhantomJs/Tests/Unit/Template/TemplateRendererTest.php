@@ -8,7 +8,8 @@
  */
 namespace JonnyW\PhantomJs\Tests\Unit\Template;
 
-use Twig_Environment;
+use PHPUnit\Framework\TestCase;
+use Twig\Environment;
 use Twig_Loader_String;
 use JonnyW\PhantomJs\Http\Request;
 use JonnyW\PhantomJs\Template\TemplateRenderer;
@@ -18,7 +19,7 @@ use JonnyW\PhantomJs\Template\TemplateRenderer;
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class TemplateRendererTest extends \PHPUnit_Framework_TestCase
+class TemplateRendererTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

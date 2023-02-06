@@ -8,7 +8,8 @@
  */
 namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
-use Twig_Environment;
+use PHPUnit\Framework\TestCase;
+use Twig\Environment;
 use Twig_Loader_String;
 use Symfony\Component\Config\FileLocatorInterface;
 use JonnyW\PhantomJs\Engine;
@@ -27,7 +28,7 @@ use JonnyW\PhantomJs\Procedure\ProcedureLoader;
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ProcedureLoaderTest extends \PHPUnit_Framework_TestCase
+class ProcedureLoaderTest extends TestCase
 {
     /**
      * Test filename
@@ -283,7 +284,7 @@ class ProcedureLoaderTest extends \PHPUnit_Framework_TestCase
      * @access public
      * @return void
      */
-    public function setUp()
+    public function setUp():void
     {
         $this->filename  = 'test.proc';
         $this->directory = sys_get_temp_dir();
@@ -299,7 +300,7 @@ class ProcedureLoaderTest extends \PHPUnit_Framework_TestCase
      * @access public
      * @return void
      */
-    public function tearDown()
+    public function tearDown():void
     {
         $filename = $this->getFilename();
 

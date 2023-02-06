@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit;
 
 use JonnyW\PhantomJs\Engine;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class EngineTest extends \PHPUnit_Framework_TestCase
+class EngineTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

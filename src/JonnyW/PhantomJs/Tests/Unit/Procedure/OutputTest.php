@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
 use JonnyW\PhantomJs\Procedure\Output;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class OutputTest extends \PHPUnit_Framework_TestCase
+class OutputTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

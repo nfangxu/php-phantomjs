@@ -9,13 +9,14 @@
 namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
 use JonnyW\PhantomJs\Procedure\ChainProcedureLoader;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ChainProcedureLoaderTest extends \PHPUnit_Framework_TestCase
+class ChainProcedureLoaderTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

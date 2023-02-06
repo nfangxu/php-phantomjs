@@ -11,13 +11,14 @@ namespace JonnyW\PhantomJs\Tests\Integration\Procedure;
 use JonnyW\PhantomJs\Http\Request;
 use JonnyW\PhantomJs\Procedure\ProcedureCompiler;
 use JonnyW\PhantomJs\DependencyInjection\ServiceContainer;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ProcedureCompilerTest extends \PHPUnit_Framework_TestCase
+class ProcedureCompilerTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/
@@ -230,7 +231,7 @@ EOF;
      * @access protected
      * @return void
      */
-    protected function setUp()
+    protected function setUp():void
     {
         parent::setUp();
 
@@ -243,7 +244,7 @@ EOF;
      * @access protected
      * @return void
      */
-    protected function tearDown()
+    protected function tearDown():void
     {
         parent::setUp();
 

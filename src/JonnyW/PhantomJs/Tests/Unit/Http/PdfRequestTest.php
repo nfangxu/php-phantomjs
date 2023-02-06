@@ -10,13 +10,14 @@ namespace JonnyW\PhantomJs\Tests\Unit\Http;
 
 use JonnyW\PhantomJs\Http\PdfRequest;
 use JonnyW\PhantomJs\Http\RequestInterface;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class PdfRequestTest extends \PHPUnit_Framework_TestCase
+class PdfRequestTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

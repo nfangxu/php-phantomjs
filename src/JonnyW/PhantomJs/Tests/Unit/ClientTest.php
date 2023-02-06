@@ -13,13 +13,14 @@ use JonnyW\PhantomJs\Engine;
 use JonnyW\PhantomJs\Http\MessageFactoryInterface;
 use JonnyW\PhantomJs\Procedure\ProcedureLoaderInterface;
 use JonnyW\PhantomJs\Procedure\ProcedureCompilerInterface;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ClientTest extends \PHPUnit_Framework_TestCase
+class ClientTest extends TestCase
 {
 
 /** +++++++++++++++++++++++++++++++++++ **/

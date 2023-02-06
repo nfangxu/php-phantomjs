@@ -10,13 +10,14 @@ namespace JonnyW\PhantomJs\Tests\Unit\Procedure;
 
 use JonnyW\PhantomJs\Procedure\ProcedureFactoryInterface;
 use JonnyW\PhantomJs\Procedure\ProcedureLoaderFactory;
+use PHPUnit\Framework\TestCase;
 
 /**
  * PHP PhantomJs
  *
  * @author Jon Wenmoth <contact@jonnyw.me>
  */
-class ProcedureLoaderFactoryTest extends \PHPUnit_Framework_TestCase
+class ProcedureLoaderFactoryTest extends TestCase
 {
     /**
      * Test directory
@@ -108,7 +109,7 @@ class ProcedureLoaderFactoryTest extends \PHPUnit_Framework_TestCase
      * @access public
      * @return void
      */
-    public function setUp()
+    public function setUp():void
     {
         $this->directory = sys_get_temp_dir();
 
